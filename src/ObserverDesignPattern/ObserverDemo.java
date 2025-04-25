@@ -17,7 +17,7 @@ public class ObserverDemo implements Observer{
         }
         else
         {
-            System.out.println(observerName+" new message recieved: "+newMessage);
+            System.out.println(observerName+" new message recieved:: "+newMessage);
         }
     }
 
