@@ -1,8 +1,8 @@
 package ObserverDesignPattern;
 
 public interface Subject {
-    void register();
-    void unregister();
+    void register(Observer observer);
+    void unregister(Observer observer);
     void notifyObservers();
     Object getUpdate();
     void postMessage(String message);
